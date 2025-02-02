@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privatna Škola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ДОБРО ДОШЛИ У ИСКРИЦУ+</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Почетна</a></li>
+                <li><a href="#subjects">Предмети</a></li>
+                <li><a href="#gallery">Слике</a></li>
+                <li><a href="#contact">Контакт инфо.</a></li>
+                <li><a href="#signup">Пријава</a></li>
+                <li><a href="#cene">Цене</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>О Искрици</h2>
+        <p>Школа са професионалним кадром, која је спремна да Вас или Ваше дете припреми за упис било ког факултета, полагање било ког пријемног, или просто за повећавање оцене из било ког од понуђених предмета. Ова школа је јединствена по свом приступу према ђацима и специфичној врсти везе на релацији ученик-крофесор која се, пре свега заснива на поверењу, а то поверење на резултатима које ће те остварити уз помоћ услуга које пружа наша школица. Дођите и уверите се, а уколико нисте у могућности лично, само контактирајте, или преко мејла, или телефоном неки од понуђених контаката и добићете све потребне информације. Тренутно смо присутни само у Лазаревцу, али циљамо да омогућимо и ђацима из осталих градова да своје вештине и знања побољшају код оноих, чији рад се исплатио као плодоносан већ небројено пута. Дођите да се дружимо, учимо и ИСКРИЧАМО заједно.</p>
+    </section>
+
+    <section id="subjects">
+        <h2>Предмети</h2>
+        <p>Код нас можете учити:</p>
+        <ul>
+            <li><strong>Српски језик</strong> - Часови прилагођени свим узрастима, што би се рекло, од 3 до 103 године, часове држи искусна професорка Јелена Максимовић за коју сви ученици кажу да нису срели бољу, а сигурно ће те се и Ви сложити са тим, јер својим знањем и строгоћом чак и оног најнемирнијег ученика може учинити Николом Теслом ;).</li>
+            <li><strong>Енглески језик</strong> - Енглески свих нивоа, држи га професорка Мирка Мирковић.</li>
+            <li><strong>Руски језик</strong> - Индивидуални или групни часови, шта год да Вам одговара, после њих ће те учинити љубоморним чак и правог Руса.</li>
+            <li><strong>Математику</strong> - Многи се плаше математике, али уз професорку Дуду, математика свих нивоа постаје мачији кашаљ, не треба да вас обесхрабри то што Вам мата никад није била јача страна, јер ће дуда учинити да Вам експоненцијалне једначине постану као 2+2.</li>
+            <li><strong>Физику</strong> - Ако желите да сазнате зажто је Њутну пала јабука на главу, питајте нашег профу физике, поред тога од нашег рофесора Пере Перића сазнаћете и како то функционише и термодинамика и остале ствари које вам нису ишле из физике.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Галерија</h2>
+        <p>Приложен материјал је ту да вас охрабри да кориситите наше услуге.</p>
+        <div class="gallery">
+            <img src="images/school1.jpg" alt="Učionica" width="300">
+            <img src="images/school2.jpg" alt="Nastava" width="300">
+            <img src="images/school3.jpg" alt="Studenti" width="300">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Како нас контактирати?</h2>
+        <p>За све што Вас занима о нама, можете нас контактирати, путем мејла или телефона:</p>
+        <ul>
+            <li>Email: <a href="mailto:aleksamax1812@email.com">aleksamax1812@email.com</a></li>
+            <li>Telefon: <a href="tel:+381692314209">+381 69 231 4209</a></li>
+        </ul>
+   
+    </section>
+
+    <section id="cene">
+    
+ <h2>Цене:</h2>
+<p>Цене за индивидуалне часове:</p>
+<ul>
+            <li><strong>Српски језик</strong> - 1000 дин.</li>
+            <li><strong>Енглески језик</strong> - 1000 дин.</li>
+            <li><strong>Руски језик</strong> - 1000 дин.</li>
+            <li><strong>Математику</strong> - 1000 дин.</li>
+            <li><strong>Физику</strong> - 1000 дин.</li>
+        </ul>
+
+<p1>Цене за групне часове:</p1>
+<ul>
+            <li><strong>Српски језик</strong> - 300 дин. </li>
+            <li><strong>Енглески језик</strong> - 300 дин. </li>
+            <li><strong>Руски језик</strong> - 300 дин. </li>
+            <li><strong>Математику</strong> - 300 дин. </li>
+            <li><strong>Физику</strong> -300 дин. </li>
+        </ul>
+
+    </section>
+
+    <section id="signup">
+        <h2>Пријавите се да искричамо</h2>
+        <p>Пријавите се овде како би добили Ваше податке и што пре Вас уписали у нашу школицу.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Ime i Prezime:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Predmet:</label>
+            <select id="subject" name="subject">
+                <option value="srpski">Srpski jezik</option>
+                <option value="engleski">Engleski jezik</option>
+                <option value="ruski">Ruski jezik</option>
+                <option value="matematika">Matematika</option>
+                <option value="fizika">Fizika</option>
+            </select>
+
+            <button type="submit">Pošaljite prijavu</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Privatna Škola. Sva prava zadržana.</p>
+    </footer>
+
+</body>
+</html>
